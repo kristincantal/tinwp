@@ -1,0 +1,26 @@
+$(document).ready(function(){
+$(".music").hide();
+$(".headhome").click(function(){
+	$(".headtext").html("HOME");
+	$(".music").animate({
+		opacity:'0',	
+		top:'-740'
+	}).fadeOut();
+	$(".main").animate({
+		opacity:'1',	
+		top:'40'
+	}).show();
+});
+$(".headmusic").click(function(){
+	$(".headtext").html("MUSIC");
+	$(".main").animate({
+		opacity:'0',	
+		top:'-740'
+	}).fadeOut();
+	$(".music").animate({
+		opacity:'1',
+		top:'40'
+	}).show();
+});
+
+});

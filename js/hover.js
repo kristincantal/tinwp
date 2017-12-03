@@ -1,0 +1,104 @@
+$(document).ready(function(){
+
+$(".musicbuttontop").each(function(){
+$(".musicbuttontop").hover(function(){
+	$(".musiccontent1").animate({
+		top:'5',
+		opacity:'1'		
+	}).show();
+	$(".musiccontent2").animate({
+		top:'5',
+		opacity:'1'				
+	}).show();
+	$(".musiccontent3").animate({
+		top:'5',
+		opacity:'1'	
+	}).show();
+	$(".musiccontent4").animate({
+		top:'5',
+		opacity:'1'		
+	}).show();
+  	}, function() {
+	$(".musiccontent1").animate({
+		top:'-110',
+		opacity:'0'		
+	});
+	$(".musiccontent2").animate({
+		top:'-110',
+		opacity:'0'		
+	});
+	$(".musiccontent3").animate({
+		top:'-110',
+		opacity:'0'		
+	});
+	$(".musiccontent4").animate({
+		top:'-110',
+		opacity:'0'		
+	});
+});
+});
+
+$(".musicbuttonbottom").each(function(){
+$(".musicbuttonbottom").hover(function(){
+	$(".musiccontent5").animate({
+		top:'5',
+		opacity:'1'		
+	}).show();
+	$(".musiccontent6").animate({
+		top:'5',
+		opacity:'1'		
+	}).show();
+	$(".musiccontent7").animate({
+		top:'5',
+		opacity:'1'		
+	}).show();
+	$(".musiccontent8").animate({
+		top:'5',
+		opacity:'1'		
+	}).show();
+	$(".musiccontent9").animate({
+		top:'5',
+		opacity:'1'		
+	}).show();
+	$(".musiccontent10").animate({
+		top:'5',
+		opacity:'1'		
+	}).show();
+	$(".musiccontent11").animate({
+		top:'5',
+		opacity:'1'		
+	}).show();
+  	}, function() {
+	$(".musiccontent5").animate({
+		top:'-110',
+		opacity:'0'		
+	});
+	$(".musiccontent6").animate({
+		top:'-110',
+		opacity:'0'		
+	});	
+	$(".musiccontent7").animate({
+		top:'-110',
+		opacity:'0'		
+	});
+	$(".musiccontent8").animate({
+		top:'-110',
+		opacity:'0'		
+	});
+	$(".musiccontent9").animate({
+		top:'-110',
+		opacity:'0'		
+	});
+	$(".musiccontent10").animate({
+		top:'-110',
+		opacity:'0'		
+	});
+	$(".musiccontent11").animate({
+		top:'-110',
+		opacity:'0'		
+	});
+});
+});
+
+
+});
